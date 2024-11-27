@@ -9,5 +9,9 @@ atrium-xrpc = "0.12.0"
 atrium-xrpc-client = "0.5.10"
 bsky-cli = "0.1.26"
 bsky-sdk = "0.1.13"
+chrono = "0.4.38"
 dotenv = "0.15.0"
+polars = { version = "0.44.2", features = ["json", "lazy", "parquet", "serde", "serde-lazy"] }
+serde = { version = "1.0.215", features = ["derive"] }
+serde_json = "1.0.133"
 tokio = "1.41.1"
